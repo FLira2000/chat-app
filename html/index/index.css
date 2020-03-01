@@ -32,3 +32,38 @@ body {
     width: 100%;
     text-align: center;
 }
+
+#chat-area {
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: darkkhaki;
+}
+
+#chat-area #users-area {
+    height: 100%;
+    width: 20%;
+    background-color: aquamarine;
+    border-right: 1px solid;
+    border-top: 1px solid transparent;
+}
+
+#chat-area #users-area #online-users-text {
+    text-align: center;
+}
+
+#chat-area #users-area #online-users {
+    margin-top: 50px;
+}
+
+#chat-area #users-area #online-users #users {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#chat-area #users-area #online-users #users li {
+    list-style-type: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

@@ -29,7 +29,19 @@
         </form>
       </div>
     </div>
-    <div id="test"></div>
+    <div id="chat-area">
+        <div id="users-area">
+            <div id="online-users-text">
+                <h1> Online Users: </h1>
+            </div>
+            <div id="online-users">
+                <ul id="users">
+                    <li> GB calvo </li>
+                    <li> Nautilus </li>
+                </ul>
+            </div>
+        </div>
+    </div>
   </body>
 
   <script>
@@ -39,7 +51,8 @@
       if ($("#username").val() == "") {
         alert("Invalid Username!")
       }else {
-        alert("Welcome " + $("#username").val().toString() + "!");
+        $("#login-area").hide();
+        $("#chat-area").show();
       }
     });
   </script>
